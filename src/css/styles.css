@@ -27,18 +27,6 @@
   -webkit-text-size-adjust: 100%;
 }
 
-input,
-button,
-textarea {
-  margin: 0;
-  padding: 0;
-  border: none;
-  font: inherit;
-  color: inherit;
-  background-color: transparent;
-  cursor: inherit;
-}
-
 .timer_box{
   display: flex;
   width: 1440px;
@@ -158,6 +146,14 @@ button[data-start]:disabled {
   display: flex;
   width: 360px;
   height: 40px;
+  padding: 8px 16px;
+  color: #2E2F42;
+  font-family: "Montserrat",
+      sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   justify-content: center;
   align-items: center;
   border-radius: 4px;
